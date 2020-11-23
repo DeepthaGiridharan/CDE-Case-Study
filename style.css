@@ -1,0 +1,119 @@
+﻿body{
+    font-family:Calibri;
+}
+nav {
+    background-color: #305496;
+    color: #FFFFFF;
+}
+#cart{
+    float: right;
+    color:#FFFFFF;
+    font-size: 16px;
+    padding:15px 10px 5px 10px;
+}
+#menu{
+    color:#FFFFFF;
+    float:right;
+    padding: 15px 150px 5px 20px;
+    font-size: 16px;
+    
+
+}
+#foodname{
+    text-align:left;
+    padding:8px;
+    padding-right:100px;
+    
+}
+
+#ttitle {
+    font-size: 36px;
+    text-align: left;
+   
+   
+    padding:80px 100px  ;
+  
+    
+}
+.menutable{
+    padding: 0px 100px;
+    width: 100%;
+    text-align: center;
+    color:#000000;
+   
+
+    
+}
+footer {
+    background-color: #BFBFBF;
+    height: 60px;
+    bottom:0px;
+    position:absolute;
+    width:100%;
+}
+#notify {
+    color: #76C35A;
+    text-align:center;
+    font-weight:bold;
+    font-size: 30px;
+}
+[name="title"] {
+    width: 70%;
+    font-size: 14px;
+    
+}
+[name="submit"] {
+    background-color: #305496;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #ffffff;
+    height: 70px;
+    width: 200px;
+}
+[name="edititems"] {
+    padding: 0px 100px;
+    width: 100%;
+    
+    color: #000000;
+}
+#editnotify {
+    color: #76C35A;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 0px 100px
+}
+.first-column {
+    text-align: left;
+    padding-right: 100px;
+}
+
+.price-column {
+    text-align: right;
+}
+[name="price"] {
+    width: 75px;
+    text-align: right;
+}
+
+[name="inStock-label"] {
+    margin-left: 80px;
+}
+
+[name="dateOfLaunch-label"] {
+    margin-left: 100px;
+}
+
+[name="category-label"] {
+    margin-left: 252px;
+}
+
+[name="freeDelivery"] {
+    height: 1.5em;
+    width: 1.5em;
+    vertical-align: middle;
+}
+
+[name="freeDelivery-label"] {
+    vertical-align: middle;
+}
+
