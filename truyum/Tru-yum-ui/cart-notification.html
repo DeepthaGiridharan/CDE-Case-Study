@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>cart-notification</title>
+    <link rel="stylesheet" href="D:/Tru-yum-ui/style/style.css" />
+    <script src="D:/Tru-yum-ui/js/Script2.js"></script>
+</head>
+<body onload="displayCart()">
+    <nav>
+        <img src="D:/Tru-yum-ui/images/truyumlogo.png" alt="logo" />
+        <a id="cart" href="cart.html">Cart</a>
+
+        <a id="menu" href="menu-item-list-customer.html">Menu</a>
+
+
+    </nav>
+
+    <p id="ttitle">Cart</p>
+    <div id="notify"><p>Item removed from Cart successfully</p></div>
+    <table class="menutable">
+        <thead>
+            <tr>
+                <th id="foodname">Name</th>
+                <th>Free Delivery</th>
+                <th class="price-column">Price</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td> <label>Total</label></td>
+                <td> <output id="total"></output></td>
+            </tr>
+        </tfoot>
+    </table>
+    <footer><img src="D:/Tru-yum-ui/images/footerimg.png" /></footer>
+
+</body>
+</html>
